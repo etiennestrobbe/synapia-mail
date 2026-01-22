@@ -24,7 +24,7 @@ services:
     depends_on:
       - mongodb
       - vault
-      #- ia-backend
+      - ia-backend
     environment:
       - NODE_ENV=production
       - JWT_SECRET=${JWT_SECRET}
@@ -53,37 +53,37 @@ services:
     restart: unless-stopped
 
   # IA Backend - Express application for AI categorization
-  # ia-backend:
-  #   build:
-  #     context: ./synapia-mail-ia-backend
-  #     dockerfile: Dockerfile
-  #   ports:
-  #     - "3002:3002"
-  #   depends_on:
-  #     - mongodb
-  #     - vault
-  #   environment:
-  #     - PORT=3002
-  #     - NODE_ENV=production
-  #     # MongoDB for configuration storage
-  #     - MONGODB_URI=mongodb://mongodb:27017/synapia_mail_db
-  #     # Vault for secrets
-  #     - VAULT_URL=http://vault:8200
-  #     - VAULT_TOKEN=${VAULT_TOKEN}
-  #     # LLM API Keys (stored in Vault or env)
-  #     - OPENAI_API_KEY=${OPENAI_API_KEY}
-  #     - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
-  #     - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
-  #     - GEMINI_API_KEY=${GEMINI_API_KEY}
-  #     - MISTRAL_API_KEY=${MISTRAL_API_KEY}
-  #     # Default LLM settings
-  #     - LLM_PROVIDER=${LLM_PROVIDER:-openai}
-  #     - LLM_DEFAULT_MODEL=${LLM_DEFAULT_MODEL:-gpt-3.5-turbo}
-  #     # CORS
-  #     - ALLOWED_ORIGINS=http://localhost:3001,http://localhost:3000
-  #   networks:
-  #     - synapia-network
-  #   restart: unless-stopped
+  ia-backend:
+    build:
+      context: ./synapia-mail-ia-backend
+      dockerfile: Dockerfile
+    ports:
+      - "3002:3002"
+    depends_on:
+      - mongodb
+      - vault
+    environment:
+      - PORT=3002
+      - NODE_ENV=production
+      # MongoDB for configuration storage
+      - MONGODB_URI=mongodb://mongodb:27017/synapia_mail_db
+      # Vault for secrets
+      - VAULT_URL=http://vault:8200
+      - VAULT_TOKEN=${VAULT_TOKEN}
+      # LLM API Keys (stored in Vault or env)
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - MISTRAL_API_KEY=${MISTRAL_API_KEY}
+      # Default LLM settings
+      - LLM_PROVIDER=${LLM_PROVIDER:-openai}
+      - LLM_DEFAULT_MODEL=${LLM_DEFAULT_MODEL:-gpt-3.5-turbo}
+      # CORS
+      - ALLOWED_ORIGINS=http://localhost:3001,http://localhost:3000
+    networks:
+      - synapia-network
+    restart: unless-stopped
 
   # HashiCorp Vault (Production)
   vault:

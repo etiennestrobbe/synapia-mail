@@ -144,3 +144,26 @@ curl -X POST http://localhost:3002/api/agents/categorization/run \
     "data": { "categories": "Work,Personal", "subject": "Hello", "from": "friend@email.com", "body": "How are you?" },
     "modelConfig": { "provider": "anthropic", "model": "claude-3-sonnet-20240229" }
   }'
+
+```
+## Docker
+
+```bash
+sudo docker build -t synapia-mail-ai-backend .
+
+
+
+sudo docker run -p 3002:3002 \
+  -e PORT=3002 \
+  -e IA_BACKEND_API_KEY=your-secure-api-key-here \
+  -e LLM_DEFAULT_MODEL=gpt-3.5-turbo \
+  -e OPENAI_API_KEY=apikey \
+  -e ANTHROPIC_API_KEY=your_vault_token_here \
+  -e OPENROUTER_API_KEY=your_openrouter_key_here \
+  -e GEMINI_API_KEY=your_gemini_key_here \
+  -e MISTRAL_API_KEY=your_mistral_key_here \
+  -e LLM_PROVIDER=openai \
+  -e LLM_DEFAULT_MODEL=gpt-3.5-turbo \
+  -e ALLOWED_ORIGINS=http://localhost:3001,http://localhost:3000 \
+  synapia-mail-ai-backend
+```
