@@ -11,6 +11,7 @@ import { GdprModule } from './gdpr/gdpr.module';
 import { EmailConnectionsModule } from './email-connections/email-connections.module';
 import { ConfigModule } from './config/config.module';
 import { TestCronModule } from './test-cron/test-cron.module';
+import { CustomersModule } from './customers/customers.module';
 
 @Module({
   imports: [
@@ -26,6 +27,7 @@ import { TestCronModule } from './test-cron/test-cron.module';
     EmailConnectionsModule,
     ConfigModule,
     TestCronModule,
+    CustomersModule,
   ],
   controllers: [AppController],
   providers: [AppService],
