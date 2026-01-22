@@ -96,3 +96,57 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+
+## Docker
+Docker run local mongoDB database: 
+```bash
+sudo docker network create -d bridge synapia-network
+
+
+sudo docker run -d  --network=synapia-network --name synapia-mongo   -p 27017:27017   -v ~/mongodb/data:/data/db    -e MONGO_INITDB_ROOT_USERNAME=admin   -e MONGO_INITDB_ROOT_PASSWORD=password   mongo:latest
+```
+-e MONGO_INITDB_DATABASE=synapia_mail_db  
+
+Docker build local image: 
+```bash
+sudo docker build -t synapia-mail-backend .
+``` 
+
+Docker run local image: 
+```bash
+sudo docker run -d --network=synapia-network --name synapia-mail-backend -p 3000:3000 \
+  -e NODE_ENV=production \
+  -e JWT_SECRET=your-secure-jwt-secret-here \
+  -e MONGODB_URI=mongodb://admin:password@synapia-mongo:27017/ \
+  -e VAULT_URL=http://vault:8200 \
+  -e VAULT_TOKEN=your-vault-token \
+  -e ENCRYPTION_KEY=your-32-character-encryption-key \
+  -e MICROSOFT_CLIENT_ID=your-microsoft-client-id \
+  -e MICROSOFT_CLIENT_SECRET=your-microsoft-client-secret-here \
+  -e MICROSOFT_TENANT_ID=common \
+  -e MICROSOFT_REDIRECT_URI=https://your-domain.com/api/email-connections/outlook/callback \
+  -e IA_BACKEND_URL=http://ia-backend:3002 \
+  -e IA_BACKEND_API_KEY=your-secure-api-key-here\
+  -e FRONTEND_URL=http://localhost:3001\
+  synapia-mail-backend:latest
+
+
+
+
+
+sudo docker run -d --network=synapia-network --name synapia-mail-backend -p 3000:3000 synapia-mail-backend
+```
+
+Start local image:
+```bash
+sudo docker start synapia-mail-backend 
+```
+Stop local image:
+```bash
+sudo docker stop synapia-mail-backend 
+```
+Stop local image:
+```bash
+sudo docker rm synapia-mail-backend 
+```

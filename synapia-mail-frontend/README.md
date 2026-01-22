@@ -34,3 +34,34 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+
+## Docker
+
+First check if backend is running
+
+
+Docker build local image: 
+```bash
+sudo docker build -t synapia-mail-frontend .
+``` 
+
+Docker run local image: 
+```bash
+sudo docker run -d --network=synapia-network --name synapia-mail-frontend -p 3001:3001 synapia-mail-frontend
+```
+
+Start local image:
+```bash
+sudo docker start synapia-mail-frontend 
+```
+Stop local image:
+```bash
+sudo docker stop synapia-mail-frontend 
+```
+Stop local image:
+```bash
+sudo docker rm synapia-mail-frontend 
+```
