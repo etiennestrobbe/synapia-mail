@@ -1,0 +1,45 @@
+# Docker Compose Override for Local Development with Vault
+# Use this to test Vault locally before OVH deployment
+# Run with: docker-compose -f docker-compose.yml -f docker-compose.override.yml up
+
+version: '3.8'
+
+services:
+  # Add Vault service for local development
+  vault:
+    image: hashicorp/vault:1.15
+    ports:
+      - "8200:8200"
+    environment:
+      - VAULT_ADDR=http://0.0.0.0:8200
+      - VAULT_API_ADDR=http://0.0.0.0:8200
+      - VAULT_DEV_ROOT_TOKEN_ID=hvs.dev-token
+      - VAULT_DEV_LISTEN_ADDRESS=0.0.0.0:8200
+    volumes:
+      - vault_data:/vault/data
+      - vault_config:/vault/config
+      - ./vault.hcl:/vault/config/vault.hcl:ro
+    cap_add:
+      - IPC_LOCK
+    networks:
+      - synapia-network
+
+  # Update backend to depend on vault
+  backend:
+    depends_on:
+      - mongodb
+      - vault
+    environment:
+      # Override for local development
+      - VAULT_URL=http://vault:8200
+      - VAULT_TOKEN=hvs.dev-token
+      - ENCRYPTION_KEY=default-dev-key-change-in-production
+      - MICROSOFT_REDIRECT_URI=http://localhost:3000/api/email-connections/outlook/callback
+
+volumes:
+  vault_data:
+  vault_config:
+
+networks:
+  synapia-network:
+    driver: bridge

@@ -1,0 +1,368 @@
+{
+  "info": {
+    "name": "Synapia IA Backend API",
+    "description": "Postman collection for testing the Synapia IA Backend endpoints",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "key": "key",
+        "value": "X-API-Key",
+        "type": "string"
+      },
+      {
+        "key": "value",
+        "value": "your-secure-api-key-here",
+        "type": "string"
+      },
+      {
+        "key": "in",
+        "value": "header",
+        "type": "string"
+      }
+    ]
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:3002",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health Check",
+      "item": [
+        {
+          "name": "Get Health Status",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/health",
+              "host": ["{{base_url}}"],
+              "path": ["health"]
+            },
+            "description": "Check if the IA backend is running (no authentication required)"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Models",
+      "item": [
+        {
+          "name": "Get All Available Models",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/models",
+              "host": ["{{base_url}}"],
+              "path": ["api", "models"]
+            },
+            "description": "Retrieve all available models for each LLM provider"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Models for Specific Provider",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/models/openai",
+              "host": ["{{base_url}}"],
+              "path": ["api", "models", "openai"]
+            },
+            "description": "Retrieve available models for a specific provider (change provider in URL)"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Configuration",
+      "item": [
+        {
+          "name": "Get Current Configuration",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/config",
+              "host": ["{{base_url}}"],
+              "path": ["api", "config"]
+            },
+            "description": "Retrieve current global LLM configuration (API keys are masked)"
+          },
+          "response": []
+        },
+        {
+          "name": "Update Configuration",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"defaultProvider\": \"openai\",\n  \"defaultModel\": \"gpt-4\",\n  \"apiKeys\": {\n    \"openai\": \"sk-your-openai-key-here\"\n  }\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/config",
+              "host": ["{{base_url}}"],
+              "path": ["api", "config"]
+            },
+            "description": "Update global LLM configuration (be careful with API keys)"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Agents",
+      "item": [
+        {
+          "name": "Get All Agents",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/agents",
+              "host": ["{{base_url}}"],
+              "path": ["api", "agents"]
+            },
+            "description": "Retrieve list of all available agents"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Specific Agent",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/agents/categorization",
+              "host": ["{{base_url}}"],
+              "path": ["api", "agents", "categorization"]
+            },
+            "description": "Retrieve details of a specific agent (change agent name in URL)"
+          },
+          "response": []
+        },
+        {
+          "name": "Update Agent Prompts",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"systemPrompt\": \"You are an expert at categorizing emails.\",\n  \"userPromptTemplate\": \"Categories: {categories}\\n\\nSubject: {subject}\\nFrom: {from}\\nBody: {body}\\n\\nCategorize this email.\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/agents/categorization",
+              "host": ["{{base_url}}"],
+              "path": ["api", "agents", "categorization"]
+            },
+            "description": "Update prompts for a specific agent"
+          },
+          "response": []
+        },
+        {
+          "name": "Run Email Categorization Agent",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"data\": {\n    \"categories\": \"Work,Personal,Spam\",\n    \"subject\": \"Project deadline approaching\",\n    \"from\": \"boss@company.com\",\n    \"body\": \"Hi team, just a reminder that the project deadline is next week. Please ensure all deliverables are completed.\"\n  }\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/agents/categorization/run",
+              "host": ["{{base_url}}"],
+              "path": ["api", "agents", "categorization", "run"]
+            },
+            "description": "Run the email categorization agent with sample data"
+          },
+          "response": []
+        },
+        {
+          "name": "Run Category Creation Agent",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"data\": {\n    \"existingCategories\": \"Work,Personal,Spam\",\n    \"subject\": \"New client inquiry\",\n    \"body\": \"Hello, I'm interested in your services for my business.\"\n  }\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/agents/category-creation/run",
+              "host": ["{{base_url}}"],
+              "path": ["api", "agents", "category-creation", "run"]
+            },
+            "description": "Run the category creation agent to suggest new categories"
+          },
+          "response": []
+        },
+        {
+          "name": "Run Urgency Detection Agent",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"data\": {\n    \"subject\": \"URGENT: Server Down\",\n    \"from\": \"admin@company.com\",\n    \"body\": \"The production server has crashed and needs immediate attention. All services are down.\"\n  }\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/agents/urgency-detection/run",
+              "host": ["{{base_url}}"],
+              "path": ["api", "agents", "urgency-detection", "run"]
+            },
+            "description": "Run the urgency detection agent to check if email is urgent"
+          },
+          "response": []
+        },
+        {
+          "name": "Run Agent with Custom Model",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"data\": {\n    \"categories\": \"Work,Personal,Spam\",\n    \"subject\": \"Meeting reminder\",\n    \"from\": \"calendar@company.com\",\n    \"body\": \"Don't forget our team meeting tomorrow at 10 AM.\"\n  },\n  \"modelConfig\": {\n    \"provider\": \"openai\",\n    \"model\": \"gpt-4\"\n  }\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/agents/categorization/run",
+              "host": ["{{base_url}}"],
+              "path": ["api", "agents", "categorization", "run"]
+            },
+            "description": "Run an agent with custom model configuration override"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Legacy Categorization",
+      "item": [
+        {
+          "name": "Categorize Email (Legacy)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"emailContent\": {\n    \"subject\": \"Project update\",\n    \"body\": \"Here's the latest update on our project.\",\n    \"from\": \"colleague@company.com\"\n  },\n  \"categories\": [\"Work\", \"Personal\", \"Spam\"]\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/categorize",
+              "host": ["{{base_url}}"],
+              "path": ["api", "categorize"]
+            },
+            "description": "Legacy categorization endpoint for backward compatibility"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Error Testing",
+      "item": [
+        {
+          "name": "Test Missing API Key",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/agents",
+              "host": ["{{base_url}}"],
+              "path": ["api", "agents"]
+            },
+            "description": "Test error response when API key is missing"
+          },
+          "response": []
+        },
+        {
+          "name": "Test Invalid API Key",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "X-API-Key",
+                "value": "invalid-key",
+                "description": "Invalid API key for testing"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/agents",
+              "host": ["{{base_url}}"],
+              "path": ["api", "agents"]
+            },
+            "description": "Test error response when API key is invalid"
+          },
+          "response": []
+        },
+        {
+          "name": "Test Invalid Input Validation",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"emailContent\": {\n    \"subject\": \"\",\n    \"body\": \"\",\n    \"from\": \"invalid-email\"\n  },\n  \"categories\": []\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/categorize",
+              "host": ["{{base_url}}"],
+              "path": ["api", "categorize"]
+            },
+            "description": "Test input validation with invalid data"
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}

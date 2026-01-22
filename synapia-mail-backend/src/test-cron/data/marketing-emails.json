@@ -1,0 +1,752 @@
+[
+  {
+    "subject": "Meeting Request for next week",
+    "body": "Please review the attached budget proposal for Q3. Your feedback is requested by next month.",
+    "from": "ceo@company.com"
+  },
+  {
+    "subject": "Budget Review Q3",
+    "body": "Please review the attached budget proposal for Q2. Your feedback is requested by next month.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Policy Update",
+    "body": "Please review the attached budget proposal for Q2. Your feedback is requested by next month.",
+    "from": "it.support@company.com"
+  },
+  {
+    "subject": "System Maintenance Notice",
+    "body": "Dear team, I would like to schedule a meeting to discuss process improvements. Please let me know your availability.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Project Update: Database Migration",
+    "body": "Please review the attached budget proposal for Q1. Your feedback is requested by Monday.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "The Mobile App is progressing well. We have completed 4% and expect to finish by next week.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "Our presentation to Global Solutions is scheduled for next week. Please prepare your slides accordingly.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "Dear team, I would like to schedule a meeting to discuss team restructuring. Please let me know your availability.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Meeting Request for Friday",
+    "body": "We are organizing a team building event on Friday. RSVP by tomorrow if you plan to attend.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "New Hire Onboarding",
+    "body": "Our presentation to TechCorp is scheduled for Friday. Please prepare your slides accordingly.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "Please review the attached budget proposal for Q2. Your feedback is requested by Friday.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Policy Update",
+    "body": "Please review the attached budget proposal for Q3. Your feedback is requested by next month.",
+    "from": "it.support@company.com"
+  },
+  {
+    "subject": "Budget Review Q2",
+    "body": "Please review the attached budget proposal for Q4. Your feedback is requested by Monday.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "We are organizing a team building event on next week. RSVP by ASAP if you plan to attend.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "Please review the attached budget proposal for Q2. Your feedback is requested by tomorrow.",
+    "from": "it.support@company.com"
+  },
+  {
+    "subject": "Project Update: Mobile App",
+    "body": "The Mobile App is progressing well. We have completed 3% and expect to finish by next week.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "System Maintenance Notice",
+    "body": "Dear team, I would like to schedule a meeting to discuss project status. Please let me know your availability.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "Policy Update",
+    "body": "Please review the attached budget proposal for Q1. Your feedback is requested by next month.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "Meeting Request for next week",
+    "body": "We are organizing a team building event on tomorrow. RSVP by by Friday if you plan to attend.",
+    "from": "ceo@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "Our presentation to NextGen Inc is scheduled for next month. Please prepare your slides accordingly.",
+    "from": "ceo@company.com"
+  },
+  {
+    "subject": "Client Presentation - NextGen Inc",
+    "body": "Our presentation to TechCorp is scheduled for Monday. Please prepare your slides accordingly.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "Please review the attached budget proposal for Q3. Your feedback is requested by next month.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "We are organizing a team building event on next month. RSVP by ASAP if you plan to attend.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Client Presentation - Global Solutions",
+    "body": "We are organizing a team building event on next month. RSVP by by Friday if you plan to attend.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "Dear team, I would like to schedule a meeting to discuss process improvements. Please let me know your availability.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "Project Update: Website Redesign",
+    "body": "Our presentation to TechCorp is scheduled for next week. Please prepare your slides accordingly.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "New Hire Onboarding",
+    "body": "Our presentation to Future Systems is scheduled for next week. Please prepare your slides accordingly.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "Our presentation to Future Systems is scheduled for Friday. Please prepare your slides accordingly.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "New Hire Onboarding",
+    "body": "Our presentation to NextGen Inc is scheduled for tomorrow. Please prepare your slides accordingly.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "Budget Review Q3",
+    "body": "The Website Redesign is progressing well. We have completed 76% and expect to finish by tomorrow.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "The Database Migration is progressing well. We have completed 93% and expect to finish by next week.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "Our presentation to Innovate Ltd is scheduled for next week. Please prepare your slides accordingly.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "Meeting Request for Monday",
+    "body": "The Mobile App is progressing well. We have completed 54% and expect to finish by next month.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "Client Presentation - Future Systems",
+    "body": "Please review the attached budget proposal for Q1. Your feedback is requested by tomorrow.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "Our presentation to Global Solutions is scheduled for next month. Please prepare your slides accordingly.",
+    "from": "it.support@company.com"
+  },
+  {
+    "subject": "New Hire Onboarding",
+    "body": "Dear team, I would like to schedule a meeting to discuss project status. Please let me know your availability.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "The Mobile App is progressing well. We have completed 49% and expect to finish by tomorrow.",
+    "from": "ceo@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "Dear team, I would like to schedule a meeting to discuss budget planning. Please let me know your availability.",
+    "from": "ceo@company.com"
+  },
+  {
+    "subject": "Project Update: UI/UX Update",
+    "body": "Dear team, I would like to schedule a meeting to discuss budget planning. Please let me know your availability.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "Meeting Request for next month",
+    "body": "Dear team, I would like to schedule a meeting to discuss project status. Please let me know your availability.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "We are organizing a team building event on next week. RSVP by next week if you plan to attend.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "Policy Update",
+    "body": "Please review the attached budget proposal for Q3. Your feedback is requested by Friday.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "New Hire Onboarding",
+    "body": "Please review the attached budget proposal for Q3. Your feedback is requested by Friday.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "Dear team, I would like to schedule a meeting to discuss process improvements. Please let me know your availability.",
+    "from": "ceo@company.com"
+  },
+  {
+    "subject": "Meeting Request for tomorrow",
+    "body": "We are organizing a team building event on tomorrow. RSVP by end of day if you plan to attend.",
+    "from": "ceo@company.com"
+  },
+  {
+    "subject": "System Maintenance Notice",
+    "body": "We are organizing a team building event on next month. RSVP by ASAP if you plan to attend.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Client Presentation - NextGen Inc",
+    "body": "We are organizing a team building event on tomorrow. RSVP by ASAP if you plan to attend.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "Budget Review Q3",
+    "body": "Our presentation to Innovate Ltd is scheduled for next month. Please prepare your slides accordingly.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "Project Update: Database Migration",
+    "body": "Our presentation to Global Solutions is scheduled for Monday. Please prepare your slides accordingly.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "Budget Review Q3",
+    "body": "The Mobile App is progressing well. We have completed 17% and expect to finish by Monday.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "New Hire Onboarding",
+    "body": "Our presentation to Future Systems is scheduled for Monday. Please prepare your slides accordingly.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "Dear team, I would like to schedule a meeting to discuss project status. Please let me know your availability.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "Meeting Request for Monday",
+    "body": "We are organizing a team building event on tomorrow. RSVP by tomorrow if you plan to attend.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "Please review the attached budget proposal for Q1. Your feedback is requested by next month.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "Client Presentation - Innovate Ltd",
+    "body": "Dear team, I would like to schedule a meeting to discuss project status. Please let me know your availability.",
+    "from": "it.support@company.com"
+  },
+  {
+    "subject": "Budget Review Q2",
+    "body": "Please review the attached budget proposal for Q4. Your feedback is requested by tomorrow.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Budget Review Q4",
+    "body": "The Website Redesign is progressing well. We have completed 80% and expect to finish by tomorrow.",
+    "from": "ceo@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "Our presentation to Future Systems is scheduled for next week. Please prepare your slides accordingly.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Policy Update",
+    "body": "Please review the attached budget proposal for Q1. Your feedback is requested by tomorrow.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "We are organizing a team building event on tomorrow. RSVP by ASAP if you plan to attend.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "Our presentation to Global Solutions is scheduled for next month. Please prepare your slides accordingly.",
+    "from": "it.support@company.com"
+  },
+  {
+    "subject": "Meeting Request for next week",
+    "body": "We are organizing a team building event on tomorrow. RSVP by end of day if you plan to attend.",
+    "from": "ceo@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "Our presentation to TechCorp is scheduled for Monday. Please prepare your slides accordingly.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "Our presentation to NextGen Inc is scheduled for Monday. Please prepare your slides accordingly.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "Please review the attached budget proposal for Q2. Your feedback is requested by next month.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "The Website Redesign is progressing well. We have completed 83% and expect to finish by tomorrow.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "System Maintenance Notice",
+    "body": "Please review the attached budget proposal for Q1. Your feedback is requested by Monday.",
+    "from": "it.support@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "The UI/UX Update is progressing well. We have completed 41% and expect to finish by Monday.",
+    "from": "ceo@company.com"
+  },
+  {
+    "subject": "New Hire Onboarding",
+    "body": "Dear team, I would like to schedule a meeting to discuss process improvements. Please let me know your availability.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "System Maintenance Notice",
+    "body": "We are organizing a team building event on next week. RSVP by next week if you plan to attend.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "Please review the attached budget proposal for Q1. Your feedback is requested by Monday.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "The Database Migration is progressing well. We have completed 87% and expect to finish by next week.",
+    "from": "it.support@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "Please review the attached budget proposal for Q2. Your feedback is requested by tomorrow.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "Our presentation to TechCorp is scheduled for next month. Please prepare your slides accordingly.",
+    "from": "ceo@company.com"
+  },
+  {
+    "subject": "New Hire Onboarding",
+    "body": "We are organizing a team building event on next week. RSVP by next week if you plan to attend.",
+    "from": "it.support@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "The Website Redesign is progressing well. We have completed 36% and expect to finish by tomorrow.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "Our presentation to Innovate Ltd is scheduled for next month. Please prepare your slides accordingly.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "New Hire Onboarding",
+    "body": "Please review the attached budget proposal for Q2. Your feedback is requested by tomorrow.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Budget Review Q2",
+    "body": "Dear team, I would like to schedule a meeting to discuss project status. Please let me know your availability.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Policy Update",
+    "body": "We are organizing a team building event on tomorrow. RSVP by by Friday if you plan to attend.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "Policy Update",
+    "body": "The Database Migration is progressing well. We have completed 78% and expect to finish by next month.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "New Hire Onboarding",
+    "body": "We are organizing a team building event on next month. RSVP by end of day if you plan to attend.",
+    "from": "ceo@company.com"
+  },
+  {
+    "subject": "Meeting Request for Monday",
+    "body": "Dear team, I would like to schedule a meeting to discuss process improvements. Please let me know your availability.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "Project Update: UI/UX Update",
+    "body": "Dear team, I would like to schedule a meeting to discuss new initiatives. Please let me know your availability.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "New Hire Onboarding",
+    "body": "The API Development is progressing well. We have completed 73% and expect to finish by next week.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "We are organizing a team building event on Monday. RSVP by ASAP if you plan to attend.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Meeting Request for next week",
+    "body": "The Mobile App is progressing well. We have completed 97% and expect to finish by next month.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "Dear team, I would like to schedule a meeting to discuss project status. Please let me know your availability.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Client Presentation - Global Solutions",
+    "body": "Please review the attached budget proposal for Q1. Your feedback is requested by next week.",
+    "from": "ceo@company.com"
+  },
+  {
+    "subject": "System Maintenance Notice",
+    "body": "Please review the attached budget proposal for Q4. Your feedback is requested by Monday.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "Our presentation to Innovate Ltd is scheduled for Friday. Please prepare your slides accordingly.",
+    "from": "ceo@company.com"
+  },
+  {
+    "subject": "Budget Review Q2",
+    "body": "Our presentation to TechCorp is scheduled for Monday. Please prepare your slides accordingly.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Budget Review Q3",
+    "body": "The Database Migration is progressing well. We have completed 63% and expect to finish by Friday.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "System Maintenance Notice",
+    "body": "Our presentation to Innovate Ltd is scheduled for next month. Please prepare your slides accordingly.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "Project Update: Database Migration",
+    "body": "Please review the attached budget proposal for Q4. Your feedback is requested by Friday.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "Dear team, I would like to schedule a meeting to discuss process improvements. Please let me know your availability.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Policy Update",
+    "body": "Dear team, I would like to schedule a meeting to discuss project status. Please let me know your availability.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "Policy Update",
+    "body": "The Mobile App is progressing well. We have completed 6% and expect to finish by next week.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Budget Review Q3",
+    "body": "Our presentation to NextGen Inc is scheduled for next month. Please prepare your slides accordingly.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Client Presentation - TechCorp",
+    "body": "Our presentation to TechCorp is scheduled for Friday. Please prepare your slides accordingly.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "The API Development is progressing well. We have completed 93% and expect to finish by tomorrow.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Project Update: Website Redesign",
+    "body": "Please review the attached budget proposal for Q3. Your feedback is requested by next month.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "The Database Migration is progressing well. We have completed 74% and expect to finish by Monday.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "Policy Update",
+    "body": "The Website Redesign is progressing well. We have completed 24% and expect to finish by next week.",
+    "from": "it.support@company.com"
+  },
+  {
+    "subject": "Project Update: Website Redesign",
+    "body": "Dear team, I would like to schedule a meeting to discuss team restructuring. Please let me know your availability.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "System Maintenance Notice",
+    "body": "Dear team, I would like to schedule a meeting to discuss budget planning. Please let me know your availability.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "Dear team, I would like to schedule a meeting to discuss budget planning. Please let me know your availability.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Policy Update",
+    "body": "We are organizing a team building event on Friday. RSVP by next week if you plan to attend.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "New Hire Onboarding",
+    "body": "Dear team, I would like to schedule a meeting to discuss project status. Please let me know your availability.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "System Maintenance Notice",
+    "body": "The Mobile App is progressing well. We have completed 99% and expect to finish by next week.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "Dear team, I would like to schedule a meeting to discuss process improvements. Please let me know your availability.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Policy Update",
+    "body": "Dear team, I would like to schedule a meeting to discuss budget planning. Please let me know your availability.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "System Maintenance Notice",
+    "body": "Dear team, I would like to schedule a meeting to discuss budget planning. Please let me know your availability.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "The Mobile App is progressing well. We have completed 55% and expect to finish by Friday.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "Please review the attached budget proposal for Q4. Your feedback is requested by next week.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "Our presentation to Innovate Ltd is scheduled for next week. Please prepare your slides accordingly.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "System Maintenance Notice",
+    "body": "We are organizing a team building event on tomorrow. RSVP by by Friday if you plan to attend.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "Please review the attached budget proposal for Q4. Your feedback is requested by next week.",
+    "from": "ceo@company.com"
+  },
+  {
+    "subject": "System Maintenance Notice",
+    "body": "The Mobile App is progressing well. We have completed 48% and expect to finish by next month.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "We are organizing a team building event on Monday. RSVP by ASAP if you plan to attend.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "Please review the attached budget proposal for Q3. Your feedback is requested by next month.",
+    "from": "project.manager@company.com"
+  },
+  {
+    "subject": "System Maintenance Notice",
+    "body": "Dear team, I would like to schedule a meeting to discuss process improvements. Please let me know your availability.",
+    "from": "it.support@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "Our presentation to Innovate Ltd is scheduled for next month. Please prepare your slides accordingly.",
+    "from": "ceo@company.com"
+  },
+  {
+    "subject": "Meeting Request for Friday",
+    "body": "We are organizing a team building event on next month. RSVP by by Friday if you plan to attend.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Project Update: UI/UX Update",
+    "body": "Please review the attached budget proposal for Q2. Your feedback is requested by Monday.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "New Hire Onboarding",
+    "body": "We are organizing a team building event on Monday. RSVP by ASAP if you plan to attend.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Budget Review Q4",
+    "body": "Please review the attached budget proposal for Q1. Your feedback is requested by next month.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Team Building Event",
+    "body": "Please review the attached budget proposal for Q4. Your feedback is requested by tomorrow.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "System Maintenance Notice",
+    "body": "Please review the attached budget proposal for Q2. Your feedback is requested by next month.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "The Mobile App is progressing well. We have completed 7% and expect to finish by Monday.",
+    "from": "it.support@company.com"
+  },
+  {
+    "subject": "Client Presentation - NextGen Inc",
+    "body": "Dear team, I would like to schedule a meeting to discuss new initiatives. Please let me know your availability.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "Our presentation to TechCorp is scheduled for tomorrow. Please prepare your slides accordingly.",
+    "from": "it.support@company.com"
+  },
+  {
+    "subject": "Meeting Request for next week",
+    "body": "Please review the attached budget proposal for Q1. Your feedback is requested by Monday.",
+    "from": "finance@company.com"
+  },
+  {
+    "subject": "Meeting Request for next month",
+    "body": "We are organizing a team building event on next month. RSVP by by Friday if you plan to attend.",
+    "from": "ceo@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "Dear team, I would like to schedule a meeting to discuss team restructuring. Please let me know your availability.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "Dear team, I would like to schedule a meeting to discuss process improvements. Please let me know your availability.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Performance Review",
+    "body": "Our presentation to Future Systems is scheduled for Monday. Please prepare your slides accordingly.",
+    "from": "it.support@company.com"
+  },
+  {
+    "subject": "Project Update: Website Redesign",
+    "body": "Dear team, I would like to schedule a meeting to discuss project status. Please let me know your availability.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Client Presentation - Global Solutions",
+    "body": "Please review the attached budget proposal for Q3. Your feedback is requested by tomorrow.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Meeting Request for next month",
+    "body": "Dear team, I would like to schedule a meeting to discuss team restructuring. Please let me know your availability.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Meeting Request for next month",
+    "body": "Please review the attached budget proposal for Q2. Your feedback is requested by next month.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Client Presentation - Innovate Ltd",
+    "body": "Our presentation to Global Solutions is scheduled for Monday. Please prepare your slides accordingly.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "System Maintenance Notice",
+    "body": "Dear team, I would like to schedule a meeting to discuss process improvements. Please let me know your availability.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Project Update: Database Migration",
+    "body": "We are organizing a team building event on Monday. RSVP by next week if you plan to attend.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Budget Review Q2",
+    "body": "Please review the attached budget proposal for Q3. Your feedback is requested by next week.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "Please review the attached budget proposal for Q3. Your feedback is requested by tomorrow.",
+    "from": "marketing@company.com"
+  },
+  {
+    "subject": "Project Update: Website Redesign",
+    "body": "Our presentation to Global Solutions is scheduled for Friday. Please prepare your slides accordingly.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "Our presentation to Future Systems is scheduled for next month. Please prepare your slides accordingly.",
+    "from": "manager@company.com"
+  },
+  {
+    "subject": "Quarterly Report",
+    "body": "Our presentation to Future Systems is scheduled for Friday. Please prepare your slides accordingly.",
+    "from": "hr@company.com"
+  },
+  {
+    "subject": "Client Presentation - Global Solutions",
+    "body": "We are organizing a team building event on tomorrow. RSVP by by Friday if you plan to attend.",
+    "from": "manager@company.com"
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "subject": "Family Reunion",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "brother@gmail.com"
+  },
+  {
+    "subject": "Dinner Plans",
+    "body": "I got tickets to the Ed Sheeran concert next month. Want to come with me?",
+    "from": "cousin@outlook.com"
+  },
+  {
+    "subject": "Family Reunion",
+    "body": "Just a reminder that Mom's birthday is coming up on tomorrow. Should we plan something?",
+    "from": "brother@gmail.com"
+  },
+  {
+    "subject": "Recipe Share",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "sister@yahoo.com"
+  },
+  {
+    "subject": "Travel Plans",
+    "body": "Just a reminder that your brother's birthday is coming up on tomorrow. Should we plan something?",
+    "from": "sister@yahoo.com"
+  },
+  {
+    "subject": "Family Reunion",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "cousin@outlook.com"
+  },
+  {
+    "subject": "Travel Plans",
+    "body": "Just a reminder that your brother's birthday is coming up on tomorrow. Should we plan something?",
+    "from": "bestfriend@gmail.com"
+  },
+  {
+    "subject": "Travel Plans",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Book Recommendation",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "sister@yahoo.com"
+  },
+  {
+    "subject": "Weekend Getaway",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "brother@gmail.com"
+  },
+  {
+    "subject": "Book Recommendation",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Movie Night",
+    "body": "Just a reminder that your brother's birthday is coming up on Friday. Should we plan something?",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Concert Tickets",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Weekend Getaway",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "brother@gmail.com"
+  },
+  {
+    "subject": "Movie Night",
+    "body": "The family reunion is scheduled for Friday at Grandma's house. Hope you can make it!",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Concert Tickets",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "bestfriend@gmail.com"
+  },
+  {
+    "subject": "Book Recommendation",
+    "body": "I got tickets to the Bruno Mars concert next month. Want to come with me?",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Coffee Catch-up",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "bestfriend@gmail.com"
+  },
+  {
+    "subject": "Book Recommendation",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "brother@gmail.com"
+  },
+  {
+    "subject": "Travel Plans",
+    "body": "The family reunion is scheduled for next week at Grandma's house. Hope you can make it!",
+    "from": "bestfriend@gmail.com"
+  },
+  {
+    "subject": "Recipe Share",
+    "body": "I got tickets to the Ed Sheeran concert next month. Want to come with me?",
+    "from": "brother@gmail.com"
+  },
+  {
+    "subject": "Family Reunion",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "bestfriend@gmail.com"
+  },
+  {
+    "subject": "Family Reunion",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "bestfriend@gmail.com"
+  },
+  {
+    "subject": "Dinner Plans",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "cousin@outlook.com"
+  },
+  {
+    "subject": "Travel Plans",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "bestfriend@gmail.com"
+  },
+  {
+    "subject": "Movie Night",
+    "body": "Just a reminder that your best friend's birthday is coming up on Monday. Should we plan something?",
+    "from": "brother@gmail.com"
+  },
+  {
+    "subject": "Movie Night",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "cousin@outlook.com"
+  },
+  {
+    "subject": "Birthday Reminder",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Recipe Share",
+    "body": "Just a reminder that Dad's birthday is coming up on Monday. Should we plan something?",
+    "from": "sister@yahoo.com"
+  },
+  {
+    "subject": "Family Reunion",
+    "body": "I got tickets to the Taylor Swift concert next month. Want to come with me?",
+    "from": "bestfriend@gmail.com"
+  },
+  {
+    "subject": "Family Reunion",
+    "body": "Just a reminder that your brother's birthday is coming up on Friday. Should we plan something?",
+    "from": "cousin@outlook.com"
+  },
+  {
+    "subject": "Birthday Reminder",
+    "body": "I got tickets to the Ed Sheeran concert next month. Want to come with me?",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Coffee Catch-up",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Travel Plans",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Book Recommendation",
+    "body": "Just a reminder that your brother's birthday is coming up on next week. Should we plan something?",
+    "from": "brother@gmail.com"
+  },
+  {
+    "subject": "Coffee Catch-up",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Recipe Share",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Book Recommendation",
+    "body": "Just a reminder that your sister's birthday is coming up on tomorrow. Should we plan something?",
+    "from": "bestfriend@gmail.com"
+  },
+  {
+    "subject": "Weekend Getaway",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "sister@yahoo.com"
+  },
+  {
+    "subject": "Recipe Share",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "sister@yahoo.com"
+  },
+  {
+    "subject": "Weekend Getaway",
+    "body": "Just a reminder that your brother's birthday is coming up on next week. Should we plan something?",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Movie Night",
+    "body": "The family reunion is scheduled for Monday at Grandma's house. Hope you can make it!",
+    "from": "cousin@outlook.com"
+  },
+  {
+    "subject": "Movie Night",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Coffee Catch-up",
+    "body": "I got tickets to the Bruno Mars concert next month. Want to come with me?",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Travel Plans",
+    "body": "I got tickets to the Adele concert next month. Want to come with me?",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Book Recommendation",
+    "body": "Just a reminder that your sister's birthday is coming up on Monday. Should we plan something?",
+    "from": "sister@yahoo.com"
+  },
+  {
+    "subject": "Movie Night",
+    "body": "I got tickets to the The Rolling Stones concert next month. Want to come with me?",
+    "from": "sister@yahoo.com"
+  },
+  {
+    "subject": "Coffee Catch-up",
+    "body": "I got tickets to the Ed Sheeran concert next month. Want to come with me?",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Recipe Share",
+    "body": "The family reunion is scheduled for tomorrow at Grandma's house. Hope you can make it!",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Movie Night",
+    "body": "The family reunion is scheduled for Monday at Grandma's house. Hope you can make it!",
+    "from": "brother@gmail.com"
+  },
+  {
+    "subject": "Coffee Catch-up",
+    "body": "The family reunion is scheduled for Monday at Grandma's house. Hope you can make it!",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Family Reunion",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Book Recommendation",
+    "body": "Just a reminder that your brother's birthday is coming up on next week. Should we plan something?",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Book Recommendation",
+    "body": "The family reunion is scheduled for tomorrow at Grandma's house. Hope you can make it!",
+    "from": "cousin@outlook.com"
+  },
+  {
+    "subject": "Recipe Share",
+    "body": "I got tickets to the Adele concert next month. Want to come with me?",
+    "from": "brother@gmail.com"
+  },
+  {
+    "subject": "Travel Plans",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "sister@yahoo.com"
+  },
+  {
+    "subject": "Movie Night",
+    "body": "The family reunion is scheduled for next week at Grandma's house. Hope you can make it!",
+    "from": "brother@gmail.com"
+  },
+  {
+    "subject": "Family Reunion",
+    "body": "Just a reminder that Mom's birthday is coming up on next month. Should we plan something?",
+    "from": "sister@yahoo.com"
+  },
+  {
+    "subject": "Family Reunion",
+    "body": "Just a reminder that your brother's birthday is coming up on next week. Should we plan something?",
+    "from": "sister@yahoo.com"
+  },
+  {
+    "subject": "Book Recommendation",
+    "body": "I got tickets to the The Rolling Stones concert next month. Want to come with me?",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Travel Plans",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "sister@yahoo.com"
+  },
+  {
+    "subject": "Concert Tickets",
+    "body": "I got tickets to the The Rolling Stones concert next month. Want to come with me?",
+    "from": "sister@yahoo.com"
+  },
+  {
+    "subject": "Travel Plans",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Recipe Share",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "brother@gmail.com"
+  },
+  {
+    "subject": "Movie Night",
+    "body": "The family reunion is scheduled for Friday at Grandma's house. Hope you can make it!",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Concert Tickets",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Travel Plans",
+    "body": "I got tickets to the Ed Sheeran concert next month. Want to come with me?",
+    "from": "cousin@outlook.com"
+  },
+  {
+    "subject": "Recipe Share",
+    "body": "The family reunion is scheduled for tomorrow at Grandma's house. Hope you can make it!",
+    "from": "sister@yahoo.com"
+  },
+  {
+    "subject": "Dinner Plans",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "bestfriend@gmail.com"
+  },
+  {
+    "subject": "Birthday Reminder",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "brother@gmail.com"
+  },
+  {
+    "subject": "Concert Tickets",
+    "body": "Just a reminder that Dad's birthday is coming up on Friday. Should we plan something?",
+    "from": "bestfriend@gmail.com"
+  },
+  {
+    "subject": "Birthday Reminder",
+    "body": "Just a reminder that your best friend's birthday is coming up on next week. Should we plan something?",
+    "from": "brother@gmail.com"
+  },
+  {
+    "subject": "Book Recommendation",
+    "body": "The family reunion is scheduled for Friday at Grandma's house. Hope you can make it!",
+    "from": "cousin@outlook.com"
+  },
+  {
+    "subject": "Dinner Plans",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Family Reunion",
+    "body": "I got tickets to the Bruno Mars concert next month. Want to come with me?",
+    "from": "cousin@outlook.com"
+  },
+  {
+    "subject": "Weekend Getaway",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "brother@gmail.com"
+  },
+  {
+    "subject": "Coffee Catch-up",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Movie Night",
+    "body": "I got tickets to the Taylor Swift concert next month. Want to come with me?",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Birthday Reminder",
+    "body": "Just a reminder that Dad's birthday is coming up on Friday. Should we plan something?",
+    "from": "bestfriend@gmail.com"
+  },
+  {
+    "subject": "Family Reunion",
+    "body": "Just a reminder that your sister's birthday is coming up on tomorrow. Should we plan something?",
+    "from": "brother@gmail.com"
+  },
+  {
+    "subject": "Concert Tickets",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "bestfriend@gmail.com"
+  },
+  {
+    "subject": "Book Recommendation",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Weekend Getaway",
+    "body": "Just a reminder that your sister's birthday is coming up on Friday. Should we plan something?",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Birthday Reminder",
+    "body": "The family reunion is scheduled for next week at Grandma's house. Hope you can make it!",
+    "from": "sister@yahoo.com"
+  },
+  {
+    "subject": "Dinner Plans",
+    "body": "Just a reminder that your sister's birthday is coming up on next week. Should we plan something?",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Birthday Reminder",
+    "body": "Just a reminder that your best friend's birthday is coming up on Friday. Should we plan something?",
+    "from": "bestfriend@gmail.com"
+  },
+  {
+    "subject": "Family Reunion",
+    "body": "I got tickets to the Adele concert next month. Want to come with me?",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Concert Tickets",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Weekend Getaway",
+    "body": "Just a reminder that your sister's birthday is coming up on next month. Should we plan something?",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Recipe Share",
+    "body": "I got tickets to the The Rolling Stones concert next month. Want to come with me?",
+    "from": "sister@yahoo.com"
+  },
+  {
+    "subject": "Concert Tickets",
+    "body": "I got tickets to the Bruno Mars concert next month. Want to come with me?",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Recipe Share",
+    "body": "Just a reminder that your sister's birthday is coming up on next month. Should we plan something?",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Coffee Catch-up",
+    "body": "Just a reminder that your best friend's birthday is coming up on Monday. Should we plan something?",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Recipe Share",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "brother@gmail.com"
+  },
+  {
+    "subject": "Family Reunion",
+    "body": "Hey! Want to grab dinner this week? I found this great new restaurant downtown.",
+    "from": "cousin@outlook.com"
+  },
+  {
+    "subject": "Dinner Plans",
+    "body": "The family reunion is scheduled for Monday at Grandma's house. Hope you can make it!",
+    "from": "bestfriend@gmail.com"
+  },
+  {
+    "subject": "Movie Night",
+    "body": "Are you free this weekend? I was thinking we could go hiking or see a movie.",
+    "from": "dad@hotmail.com"
+  },
+  {
+    "subject": "Movie Night",
+    "body": "Just a reminder that your sister's birthday is coming up on next month. Should we plan something?",
+    "from": "mom@gmail.com"
+  },
+  {
+    "subject": "Recipe Share",
+    "body": "I got tickets to the Ed Sheeran concert next month. Want to come with me?",
+    "from": "bestfriend@gmail.com"
+  },
+  {
+    "subject": "Movie Night",
+    "body": "The family reunion is scheduled for next month at Grandma's house. Hope you can make it!",
+    "from": "cousin@outlook.com"
+  }
+]

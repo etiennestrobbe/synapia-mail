@@ -1,0 +1,502 @@
+[
+  {
+    "subject": "CRITICAL: Financial Issue",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "URGENT: Payment Overdue",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "CRITICAL: Financial Issue",
+    "body": "URGENT: Your payment of $4765 is overdue. Please settle immediately to avoid service disruption.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "PRIORITY: Contract Deadline",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "alert@company.com"
+  },
+  {
+    "subject": "CRITICAL: System Failure",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "URGENT: Payment Overdue",
+    "body": "URGENT: Your payment of $2545 is overdue. Please settle immediately to avoid service disruption.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "URGENT: Legal Notice",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "urgent@company.com"
+  },
+  {
+    "subject": "CRITICAL: Financial Issue",
+    "body": "URGENT: Your payment of $3957 is overdue. Please settle immediately to avoid service disruption.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Medical Alert",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Server Down",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "PRIORITY: Contract Deadline",
+    "body": "URGENT: Your payment of $1744 is overdue. Please settle immediately to avoid service disruption.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "CRITICAL: Data Breach",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "CRITICAL: Data Breach",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "alert@company.com"
+  },
+  {
+    "subject": "URGENT: Legal Notice",
+    "body": "SECURITY BREACH: We have detected unauthorized access to our systems. All passwords must be changed immediately.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "CRITICAL: Data Breach",
+    "body": "SECURITY BREACH: We have detected unauthorized access to our systems. All passwords must be changed immediately.",
+    "from": "urgent@company.com"
+  },
+  {
+    "subject": "CRITICAL: Data Breach",
+    "body": "SECURITY BREACH: We have detected unauthorized access to our systems. All passwords must be changed immediately.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "ALERT: Security Incident",
+    "body": "SECURITY BREACH: We have detected unauthorized access to our systems. All passwords must be changed immediately.",
+    "from": "alert@company.com"
+  },
+  {
+    "subject": "CRITICAL: System Failure",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "EMERGENCY: Medical Alert",
+    "body": "SECURITY BREACH: We have detected unauthorized access to our systems. All passwords must be changed immediately.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "URGENT: Legal Notice",
+    "body": "SECURITY BREACH: We have detected unauthorized access to our systems. All passwords must be changed immediately.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "PRIORITY: Contract Deadline",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "EMERGENCY: Medical Alert",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Server Down",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "ALERT: Security Incident",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "alert@company.com"
+  },
+  {
+    "subject": "CRITICAL: System Failure",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "URGENT: Payment Overdue",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "URGENT: Time Sensitive",
+    "body": "URGENT: Your payment of $1813 is overdue. Please settle immediately to avoid service disruption.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "URGENT: Time Sensitive",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "alert@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Server Down",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "alert@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Medical Alert",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "ALERT: Security Incident",
+    "body": "URGENT: Your payment of $2789 is overdue. Please settle immediately to avoid service disruption.",
+    "from": "alert@company.com"
+  },
+  {
+    "subject": "URGENT: Legal Notice",
+    "body": "URGENT: Your payment of $4328 is overdue. Please settle immediately to avoid service disruption.",
+    "from": "urgent@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Medical Alert",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "alert@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Medical Alert",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "ALERT: Security Incident",
+    "body": "URGENT: Your payment of $3089 is overdue. Please settle immediately to avoid service disruption.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "PRIORITY: Contract Deadline",
+    "body": "SECURITY BREACH: We have detected unauthorized access to our systems. All passwords must be changed immediately.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "EMERGENCY: Medical Alert",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "URGENT: Payment Overdue",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "urgent@company.com"
+  },
+  {
+    "subject": "URGENT: Time Sensitive",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "CRITICAL: Financial Issue",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "CRITICAL: Financial Issue",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "urgent@company.com"
+  },
+  {
+    "subject": "PRIORITY: Contract Deadline",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "urgent@company.com"
+  },
+  {
+    "subject": "URGENT: Time Sensitive",
+    "body": "SECURITY BREACH: We have detected unauthorized access to our systems. All passwords must be changed immediately.",
+    "from": "alert@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Medical Alert",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "urgent@company.com"
+  },
+  {
+    "subject": "PRIORITY: Contract Deadline",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "ALERT: Security Incident",
+    "body": "URGENT: Your payment of $3736 is overdue. Please settle immediately to avoid service disruption.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "ALERT: Security Incident",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "urgent@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Medical Alert",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "CRITICAL: Data Breach",
+    "body": "URGENT: Your payment of $1414 is overdue. Please settle immediately to avoid service disruption.",
+    "from": "alert@company.com"
+  },
+  {
+    "subject": "CRITICAL: System Failure",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "URGENT: Payment Overdue",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "URGENT: Legal Notice",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "URGENT: Legal Notice",
+    "body": "URGENT: Your payment of $4560 is overdue. Please settle immediately to avoid service disruption.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "URGENT: Payment Overdue",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Medical Alert",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "CRITICAL: System Failure",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Server Down",
+    "body": "SECURITY BREACH: We have detected unauthorized access to our systems. All passwords must be changed immediately.",
+    "from": "urgent@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Server Down",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "alert@company.com"
+  },
+  {
+    "subject": "URGENT: Time Sensitive",
+    "body": "URGENT: Your payment of $5274 is overdue. Please settle immediately to avoid service disruption.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "URGENT: Payment Overdue",
+    "body": "URGENT: Your payment of $2543 is overdue. Please settle immediately to avoid service disruption.",
+    "from": "alert@company.com"
+  },
+  {
+    "subject": "ALERT: Security Incident",
+    "body": "SECURITY BREACH: We have detected unauthorized access to our systems. All passwords must be changed immediately.",
+    "from": "urgent@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Medical Alert",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "alert@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Medical Alert",
+    "body": "URGENT: Your payment of $2012 is overdue. Please settle immediately to avoid service disruption.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "URGENT: Payment Overdue",
+    "body": "URGENT: Your payment of $2379 is overdue. Please settle immediately to avoid service disruption.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "PRIORITY: Contract Deadline",
+    "body": "URGENT: Your payment of $3669 is overdue. Please settle immediately to avoid service disruption.",
+    "from": "urgent@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Server Down",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Server Down",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "URGENT: Time Sensitive",
+    "body": "URGENT: Your payment of $3451 is overdue. Please settle immediately to avoid service disruption.",
+    "from": "urgent@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Medical Alert",
+    "body": "SECURITY BREACH: We have detected unauthorized access to our systems. All passwords must be changed immediately.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "ALERT: Security Incident",
+    "body": "SECURITY BREACH: We have detected unauthorized access to our systems. All passwords must be changed immediately.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "PRIORITY: Contract Deadline",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "PRIORITY: Contract Deadline",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "urgent@company.com"
+  },
+  {
+    "subject": "ALERT: Security Incident",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "ALERT: Security Incident",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "alert@company.com"
+  },
+  {
+    "subject": "URGENT: Time Sensitive",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "PRIORITY: Contract Deadline",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "alert@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Server Down",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "CRITICAL: System Failure",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "CRITICAL: System Failure",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "urgent@company.com"
+  },
+  {
+    "subject": "ALERT: Security Incident",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Medical Alert",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "URGENT: Payment Overdue",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "CRITICAL: Financial Issue",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "EMERGENCY: Medical Alert",
+    "body": "URGENT: Your payment of $3255 is overdue. Please settle immediately to avoid service disruption.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Medical Alert",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "urgent@company.com"
+  },
+  {
+    "subject": "ALERT: Security Incident",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "PRIORITY: Contract Deadline",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "alert@company.com"
+  },
+  {
+    "subject": "CRITICAL: Data Breach",
+    "body": "SECURITY BREACH: We have detected unauthorized access to our systems. All passwords must be changed immediately.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "CRITICAL: Financial Issue",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "URGENT: Legal Notice",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "urgent@company.com"
+  },
+  {
+    "subject": "URGENT: Time Sensitive",
+    "body": "SECURITY BREACH: We have detected unauthorized access to our systems. All passwords must be changed immediately.",
+    "from": "alert@company.com"
+  },
+  {
+    "subject": "URGENT: Time Sensitive",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "PRIORITY: Contract Deadline",
+    "body": "CRITICAL ALERT: Our main production server has gone down. All services are affected. IT team is working on it urgently.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "CRITICAL: System Failure",
+    "body": "SECURITY BREACH: We have detected unauthorized access to our systems. All passwords must be changed immediately.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Server Down",
+    "body": "SECURITY BREACH: We have detected unauthorized access to our systems. All passwords must be changed immediately.",
+    "from": "emergency@support.com"
+  },
+  {
+    "subject": "CRITICAL: Financial Issue",
+    "body": "SECURITY BREACH: We have detected unauthorized access to our systems. All passwords must be changed immediately.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "PRIORITY: Contract Deadline",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "security@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Server Down",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "urgent@company.com"
+  },
+  {
+    "subject": "EMERGENCY: Server Down",
+    "body": "CRITICAL: The contract deadline is approaching. We need your immediate approval to proceed.",
+    "from": "critical@company.com"
+  },
+  {
+    "subject": "PRIORITY: Contract Deadline",
+    "body": "EMERGENCY: There has been a security incident. Please change all passwords and enable 2FA immediately.",
+    "from": "alert@company.com"
+  }
+]
