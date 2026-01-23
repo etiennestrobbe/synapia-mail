@@ -41,5 +41,23 @@ jobs:
           sed -i 's|    build:\n      context: ./synapia-mail-ia-backend\n      dockerfile: Dockerfile|    image: 172.20.0.21:5000/synapia-mail-ia-backend:latest|' docker-compose.deploy.yml
 
       - name: Deploy with docker-compose
+        env:
+          ALLOWED_ORIGINS: ${{ vars.ALLOWED_ORIGINS }}
+          JWT_SECRET: ${{ secrets.JWT_SECRET }}
+          VAULT_TOKEN: ${{ secrets.VAULT_TOKEN }}
+          ENCRYPTION_KEY: ${{ secrets.ENCRYPTION_KEY }}
+          # MICROSOFT_CLIENT_ID: ${{ secrets.MICROSOFT_CLIENT_ID }}
+          # MICROSOFT_CLIENT_SECRET: ${{ secrets.MICROSOFT_CLIENT_SECRET }}
+          IA_BACKEND_API_KEY: ${{ secrets.IA_BACKEND_API_KEY }}
+          CUSTOMER_POPULATE_API_KEY: ${{ vars.CUSTOMER_POPULATE_API_KEY }}
+          MONGO_USERNAME: ${{ secrets.MONGO_USERNAME }}
+          MONGO_PASSWORD: ${{ secrets.MONGO_PASSWORD }}
+          # OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          # ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NEXT_PUBLIC_API_BASE_URL: ${{ vars.NEXT_PUBLIC_API_BASE_URL }}
+          MICROSOFT_REDIRECT_URI: ${{ vars.MICROSOFT_REDIRECT_URI }}
+          FRONTEND_URL: ${{ vars.FRONTEND_URL }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+          LLM_DEFAULT_MODEL: ${{ vars.LLM_DEFAULT_MODEL }}
         run: |
           docker-compose -f docker-compose.deploy.yml up -d
