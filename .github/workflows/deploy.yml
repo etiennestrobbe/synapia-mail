@@ -14,12 +14,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Debug directory structure
-        run: |
-          pwd
-          ls -la
-          find . -name "synapia-mail-frontend" -type d 2>/dev/null || echo "synapia-mail-frontend not found"
-
       - name: Build and push frontend image
         run: |
           docker build -t 172.20.0.21:5000/synapia-mail-frontend:latest synapia-mail-frontend
@@ -50,5 +44,5 @@ jobs:
 
       - name: Deploy with docker-compose
         run: |
-          docker-compose down
+          docker-compose down || true
           docker-compose up -d
