@@ -9,6 +9,9 @@ on:
 jobs:
   deploy:
     runs-on: [self-hosted, synapia-mail]
+    defaults:
+      run:
+        working-directory: synapia-mail
 
     steps:
       - name: Checkout code
@@ -16,25 +19,21 @@ jobs:
 
       - name: Build and push frontend image
         run: |
-          cd synapia-mail
           docker build -t 192.168.1.200:5000/synapia-mail-frontend:latest ./synapia-mail-frontend
           docker push 192.168.1.200:5000/synapia-mail-frontend:latest
 
       - name: Build and push backend image
         run: |
-          cd synapia-mail
           docker build -t 192.168.1.200:5000/synapia-mail-backend:latest ./synapia-mail-backend
           docker push 192.168.1.200:5000/synapia-mail-backend:latest
 
       - name: Build and push ia-backend image
         run: |
-          cd synapia-mail
           docker build -t 192.168.1.200:5000/synapia-mail-ia-backend:latest ./synapia-mail-ia-backend
           docker push 192.168.1.200:5000/synapia-mail-ia-backend:latest
 
       - name: Update docker-compose.yml for registry images
         run: |
-          cd synapia-mail
           # Replace build configurations with registry images for the three services
           # Frontend
           sed -i 's|    build:|    image: 192.168.1.200:5000/synapia-mail-frontend:latest|' docker-compose.yml
@@ -48,6 +47,5 @@ jobs:
 
       - name: Deploy with docker-compose
         run: |
-          cd synapia-mail
           docker-compose down
           docker-compose up -d
