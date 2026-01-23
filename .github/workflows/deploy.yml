@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: unraid-runner
+    runs-on: [self-hosted, synapia-mail]
 
     steps:
       - name: Checkout code
