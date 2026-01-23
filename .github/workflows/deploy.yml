@@ -34,14 +34,11 @@ jobs:
           cp docker-compose.yml docker-compose.deploy.yml
           # Replace build configurations with registry images for the three services
           # Frontend
-          sed -i 's|    build:|    image: 172.20.0.21:5000/synapia-mail-frontend:latest|' docker-compose.deploy.yml
-          sed -i '/      context: \./,/        - NEXT_PUBLIC_API_BASE_URL/ d' docker-compose.deploy.yml
+          sed -i 's|    build:\n      context: ./synapia-mail-frontend\n      dockerfile: Dockerfile\n      args:\n        - NEXT_PUBLIC_API_BASE_URL=\${NEXT_PUBLIC_API_BASE_URL}|    image: 172.20.0.21:5000/synapia-mail-frontend:latest|' docker-compose.deploy.yml
           # Backend
-          sed -i 's|    build:|    image: 172.20.0.21:5000/synapia-mail-backend:latest|' docker-compose.deploy.yml
-          sed -i '/      context: \./,/      dockerfile:/ d' docker-compose.deploy.yml
+          sed -i 's|    build:\n      context: ./synapia-mail-backend\n      dockerfile: Dockerfile|    image: 172.20.0.21:5000/synapia-mail-backend:latest|' docker-compose.deploy.yml
           # IA Backend
-          sed -i 's|    build:|    image: 172.20.0.21:5000/synapia-mail-ia-backend:latest|' docker-compose.deploy.yml
-          sed -i '/      context: \./,/      dockerfile:/ d' docker-compose.deploy.yml
+          sed -i 's|    build:\n      context: ./synapia-mail-ia-backend\n      dockerfile: Dockerfile|    image: 172.20.0.21:5000/synapia-mail-ia-backend:latest|' docker-compose.deploy.yml
 
       - name: Deploy with docker-compose
         run: |
