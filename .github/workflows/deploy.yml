@@ -44,5 +44,4 @@ jobs:
 
       - name: Deploy with docker-compose
         run: |
-          docker-compose down || true
           docker-compose up -d
