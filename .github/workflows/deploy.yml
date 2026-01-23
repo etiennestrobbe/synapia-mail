@@ -22,30 +22,30 @@ jobs:
 
       - name: Build and push frontend image
         run: |
-          docker build -t 192.168.1.200:5000/synapia-mail-frontend:latest synapia-mail-frontend
-          docker push 192.168.1.200:5000/synapia-mail-frontend:latest
+          docker build -t DockerRegistry:5000/synapia-mail-frontend:latest synapia-mail-frontend
+          docker push DockerRegistry:5000/synapia-mail-frontend:latest
 
       - name: Build and push backend image
         run: |
-          docker build -t 192.168.1.200:5000/synapia-mail-backend:latest synapia-mail-backend
-          docker push 192.168.1.200:5000/synapia-mail-backend:latest
+          docker build -t DockerRegistry:5000/synapia-mail-backend:latest synapia-mail-backend
+          docker push DockerRegistry:5000/synapia-mail-backend:latest
 
       - name: Build and push ia-backend image
         run: |
-          docker build -t 192.168.1.200:5000/synapia-mail-ia-backend:latest synapia-mail-ia-backend
-          docker push 192.168.1.200:5000/synapia-mail-ia-backend:latest
+          docker build -t DockerRegistry:5000/synapia-mail-ia-backend:latest synapia-mail-ia-backend
+          docker push DockerRegistry:5000/synapia-mail-ia-backend:latest
 
       - name: Update docker-compose.yml for registry images
         run: |
           # Replace build configurations with registry images for the three services
           # Frontend
-          sed -i 's|    build:|    image: 192.168.1.200:5000/synapia-mail-frontend:latest|' docker-compose.yml
+          sed -i 's|    build:|    image: DockerRegistry:5000/synapia-mail-frontend:latest|' docker-compose.yml
           sed -i '/    context: \./,/        - NEXT_PUBLIC_API_BASE_URL/ d' docker-compose.yml
           # Backend
-          sed -i 's|    build:|    image: 192.168.1.200:5000/synapia-mail-backend:latest|' docker-compose.yml
+          sed -i 's|    build:|    image: DockerRegistry:5000/synapia-mail-backend:latest|' docker-compose.yml
           sed -i '/    context: \./,/    dockerfile:/ d' docker-compose.yml
           # IA Backend
-          sed -i 's|    build:|    image: 192.168.1.200:5000/synapia-mail-ia-backend:latest|' docker-compose.yml
+          sed -i 's|    build:|    image: DockerRegistry:5000/synapia-mail-ia-backend:latest|' docker-compose.yml
           sed -i '/    context: \./,/    dockerfile:/ d' docker-compose.yml
 
       - name: Deploy with docker-compose
