@@ -1,4 +1,4 @@
-name: Deploy to Local Registry
+name: Deploy to Unraid Registry
 
 on:
   push:
@@ -13,6 +13,13 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Login to registry.etiennestrobbe.ovh
+        uses: docker/login-action@v3
+        with:
+          registry: registry.etiennestrobbe.ovh
+          username: ${{ secrets.REGISTRY_USERNAME }}
+          password: ${{ secrets.REGISTRY_PASSWORD }}
 
       - name: Build and push frontend image
         run: |
